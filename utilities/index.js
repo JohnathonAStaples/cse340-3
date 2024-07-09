@@ -60,6 +60,13 @@ Util.buildClassificationGrid = async function(data){
   return grid
 }
 
+/* **************************************
+* Build the inventory detail view HTML
+* ************************************ */
+Util.buildInvDetail = async function(data){
+  console.log(data)
+  return ""}
+
 /* ****************************************
  * Middleware For Handling Errors
  * Wrap other function in this for 
